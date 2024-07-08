@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Grid System</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-header">All Grid Examples</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="/grid">Grids</a>
+          <a class="dropdown-item" routerLink="/col-offset">Columns Offset</a>
+          <a class="dropdown-item" routerLink="/nested-rows">Nested Rows</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/images">Image Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/buttons">Buttons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/collapse">Collapse Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/carousel">Carousel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/tabs-pane">Tabs Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/forms">Forms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/accordion">Accordion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/modal">Modal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/scrollspy">Scrollspy</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div style="padding-top: 50px;">
+  <router-outlet></router-outlet>
+</div>
